@@ -1,0 +1,28 @@
+The following cpp code is my first step to coding in computer networking.
+This code is to Download a HTTP website by just entering its name and then entering the filename we want to store the Downloaded HTML file.
+
+To run the code:
+  1. open this code in suitable text editor.
+  2. Save the file with .cpp extention (Eg. file.cpp)
+  3. open terminal and type -
+        >> g++  file.cpp
+        >> ./a.out
+
+The code should run as follows:
+    Enter domain name: www.google.com (google was Example)
+    IP address of www.google.com is 142.250.195.132
+    Message sent to server: GET / HTTP/1.0
+  
+  
+    Message recieved from server: 
+  
+    Enter Filename: google (filename to be saved as google)
+
+After this there should be a file called "google.html" in the same directory as the file is saved in.
+
+Drawbacks to the above code:
+  1. Only HTTP websites can be downloaded and not HTTPS.
+  2. Only parts in the HTML code will be included while opening the website. 
+     For Example: 
+          if we open the google html file we notice parts of the website missing from its original.
+          This is because we did not account for Downloading parts of the html code that lead to other websites or images etc.
