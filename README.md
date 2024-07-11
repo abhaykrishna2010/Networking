@@ -1,2 +1,2 @@
-# Networking
-This Repository consists of all codes regarding my path to studying networking.
+# Basic Networking Project
+This is a simple project that allows you to type the name of the website and download that html website.
